@@ -10,15 +10,17 @@ import image6 from "../../Assets/icons/6.png";
 
 const Services = () => {
   return (
-    <div className="py-12">
+    <div className="py-12 bg-[#01073a]">
       <div>
         <img
-          className="w-20 my-4 ml-12 hover:translate-x-[500px] lg:hover:translate-x-[1080px] transition ease-in-out delay-250 duration-300"
+          className="w-20 my-4 ml-12 hover:translate-x-[200px] lg:hover:translate-x-[1080px] transition ease-in-out delay-250 duration-300"
           src={rocket}
           alt=""
         />
-        <p className="text-2xl text-white text-center tracking-widest">SERVICES</p>
-        <p className="text-4xl text-white text-center text-2xl tracking-wider">
+        <p className="text-2xl text-white text-center tracking-widest">
+          SERVICES
+        </p>
+        <p className="text-4xl text-white text-center tracking-wider">
           We provides services to our clients
         </p>
       </div>

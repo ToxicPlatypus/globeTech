@@ -4,7 +4,7 @@ import logo from "../../Assets/globetech logo.png";
 
 const Navbar = () => {
   return (
-    <div class="navbar bg-base-100 px-12">
+    <div class="navbar px-12 bg-[#01073a]">
       <div class="flex-1 pl-3 pt-8">
         <img src={logo} alt="" />
       </div>

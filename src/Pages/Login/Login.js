@@ -2,7 +2,7 @@ import React from "react";
 
 const Login = () => {
   return (
-    <div class="flex h-screen">
+    <div class="flex h-screen bg-[#01073a]">
       <div className="w-3/12 pt-12">
         <p className="text-2xl text-center text-[#0096C7] tracking-widest uppercase">
           Globetech

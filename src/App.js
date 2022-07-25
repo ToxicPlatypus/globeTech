@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import Services from "./Pages/Services/Services";
 import Login from "./Pages/Login/Login";
@@ -7,7 +7,7 @@ import Navbar from "./Pages/Home/Navbar";
 
 function App() {
   return (
-    <div className="bg-[#01073a]">
+    <div>
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
